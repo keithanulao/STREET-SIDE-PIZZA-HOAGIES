@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Keeps the mockup unlisted on search engines during your pitch -->
+    <meta name="robots" content="noindex, nofollow">
+    <title>Street Side Pizza &amp; Hoagies | Chesapeake, VA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Mobile-First Top Bar -->
+    <header class="sticky-header">
+        <div class="container nav-container">
+            <div class="brand-row">
+                <a href="#home" class="brand-name">STREET SIDE PIZZA &amp; HOAGIES</a>
+                <a href="tel:7578196074" class="btn-call-mobile">Call (757) 819-6074</a>
+            </div>
+            <nav class="nav-links">
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Photos</a>
+                <a href="#featured">13News</a>
+                <a href="#hours">Hours &amp; Map</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <span class="badge">Family-Owned in Chesapeake • As Seen on 13News Now</span>
+            <h1>Fresh, Loaded Pizzas &amp; Hoagies Made to Order</h1>
+            <p class="hero-sub">
+                From our signature 18" specialty pizzas to piled-high hot and cold hoagies—order direct for fast pick-up on Great Bridge Blvd or get delivery right to your door.
+            </p>
+            <div class="hero-actions">
+                <!-- Replace # with their exact Slice ordering URL from the live site -->
+                <a href="#order-options" class="btn btn-primary">Order Online Now</a>
+                <a href="tel:7578196074" class="btn btn-secondary">Call (757) 819-6074</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Order Bar (Preserves their existing 3rd-party ordering platforms) -->
+    <section id="order-options" class="order-bar">
+        <div class="container order-bar-inner">
+            <span class="order-label">Order Pick-Up or Delivery:</span>
+            <div class="order-buttons">
+                <a href="tel:7578196074" class="order-chip chip-direct">Direct Pick-Up (757) 819-6074</a>
+                <a href="https://slicelife.com" target="_blank" rel="noopener" class="order-chip">Order on Slice</a>
+                <a href="https://www.doordash.com" target="_blank" rel="noopener" class="order-chip">DoorDash</a>
+                <a href="https://www.ubereats.com" target="_blank" rel="noopener" class="order-chip">Uber Eats</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collapsible Menu Section -->
+    <section id="menu" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Tap any category below to view items and pricing. Add a side and a drink to any meal for <strong>$3.99</strong>.</p>
+
+            <div class="accordion-wrapper">
+                <!-- Category 1: Open by default so users immediately see food & prices -->
+                <details class="menu-category" open>
+                    <summary>
+                        <span>Specialty &amp; Build-Your-Own Pizzas</span>
+                        <span class="toggle-icon">+</span>
+                    </summary>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Spartan Pizza</h4>
+                                <p>Our most popular specialty pizza loaded with pepperoni, Italian sausage, ham, bacon, green peppers, onions, mushrooms, and black olives.</p>
+                            </div>
+                            <div class="item-price">
+                                <span>12" $24.00</span>
+                                <span>18" $34.75</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Classic Pepperoni &amp; Cheese</h4>
+                                <p>House-made dough, rich tomato sauce, premium mozzarella blend, and crispy cupped pepperoni.</p>
+                            </div>
+                            <div class="item-price">
+                                <span>12" $15.99</span>
+                                <span>18" $22.99</span>
+                            </div>
+                        </div>
+                        <!-- Add additional pizzas from their Menu page here -->
+                    </div>
+                </details>
+
+                <!-- Category 2: Collapsed by default -->
+                <details class="menu-category">
+                    <summary>
+                        <span>Hot &amp; Cold Hoagies</span>
+                        <span class="toggle-icon">+</span>
+                    </summary>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Steak &amp; Cheese Hoagie</h4>
+                                <p>Shaved ribeye steak grilled with onions, peppers, and melted provolone on a fresh toasted hoagie roll.</p>
+                            </div>
+                            <div class="item-price">
+                                <span>$12.99</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Italian Cold Cut Hoagie</h4>
+                                <p>Genoa salami, capicola, ham, provolone, shredded lettuce, tomato, onions, and house Italian dressing.</p>
+                            </div>
+                            <div class="item-price">
+                                <span>$11.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Category 3: Collapsed by default -->
+                <details class="menu-category">
+                    <summary>
+                        <span>Wings, Pasta &amp; Salads</span>
+                        <span class="toggle-icon">+</span>
+                    </summary>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Jumbo Crispy Wings</h4>
+                                <p>Tossed in your choice of Mild, Hot, BBQ, or Garlic Parmesan. Served with ranch or blue cheese.</p>
+                            </div>
+                            <div class="item-price">
+                                <span>10 pc $13.99</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Baked Ziti</h4>
+                                <p>Penne pasta baked in hearty marinara with seasoned ricotta and melted mozzarella.</p>
+                            </div>
+                            <div class="item-price">
+                                <span>$12.99</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>House Salad with Grilled Chicken</h4>
+                                <p>Crisp greens, tomatoes, cucumbers, red onions, and warm seasoned chicken breast.</p>
+                            </div>
+                            <div class="item-price">
+                                <span>$11.49</span>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Category 4: Collapsed by default -->
+                <details class="menu-category">
+                    <summary>
+                        <span>Combo Deals &amp; Sides</span>
+                        <span class="toggle-icon">+</span>
+                    </summary>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h4>Make It a Combo</h4>
+                                <p>Add crispy seasoned french fries and a cold fountain drink or canned soda to any hoagie or order.</p>
+                            </div>
+                            <div class="item-price">
+                                <span>+$3.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            <p class="menu-note">* Menu items and prices are subject to change. Call <a href="tel:7578196074">(757) 819-6074</a> for daily specials.</p>
+        </div>
+    </section>
+
+    <!-- Food Photo Gallery with Tap-to-Zoom -->
+    <section id="gallery" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Fresh Out of the Oven</h2>
+            <p class="section-subtitle">Tap any photo to zoom in.</p>
+
+            <div class="photo-grid">
+                <div class="photo-card">
+                    <img src="images/pizza-1.webp" alt="Signature Pepperoni & Basil Pizza" loading="lazy">
+                    <div class="photo-caption">Signature Pepperoni Pizza</div>
+                </div>
+                <div class="photo-card">
+                    <img src="images/hoagie-1.webp" alt="Loaded Steak & Cheese Hoagie with Peppers" loading="lazy">
+                    <div class="photo-caption">Loaded Steak &amp; Cheese Hoagie</div>
+                </div>
+                <div class="photo-card">
+                    <img src="images/wings-1.webp" alt="Crispy Wings & Seasoned Fries Combo" loading="lazy">
+                    <div class="photo-caption">Wings &amp; Fries Combo</div>
+                </div>
+                <div class="photo-card">
+                    <img src="images/ziti-1.webp" alt="Baked Ziti with Melted Mozzarella" loading="lazy">
+                    <div class="photo-caption">Baked Ziti</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fixed 13News Now Feature (Replaces their broken raw text link) -->
+    <section id="featured" class="section">
+        <div class="container">
+            <div class="news-feature">
+                <div class="news-text">
+                    <span class="badge">Local Spotlight</span>
+                    <h2>As Featured on ABC 13News Now</h2>
+                    <p>See why Chesapeake locals love our family-owned kitchen on Great Bridge Blvd. Watch our full interview with 13News Now.</p>
+                    <a href="https://www.13newsnow.com/embeds/video/responsive/291-56262752-895f-449d-95fd-acdd4f354fce/iframe" target="_blank" rel="noopener" class="btn btn-primary">Watch 13News Interview ↗</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours, Location & Contact Footer -->
+    <section id="hours" class="section section-alt">
+        <div class="container contact-grid">
+            <div>
+                <h2 class="section-title">Visit or Call Us</h2>
+                <p>Located right on Great Bridge Blvd in Chesapeake. Dine-in, pick-up, and third-party delivery available.</p>
+
+                <div class="info-block">
+                    <strong>Phone (Call for Pick-Up)</strong>
+                    <a href="tel:7578196074" class="highlight-link">(757) 819-6074</a>
+                </div>
+
+                <div class="info-block">
+                    <strong>Address</strong>
+                    <a href="https://maps.google.com/?q=910+Great+Bridge+Blvd,+Suite+109,+Chesapeake,+VA+23320" target="_blank" rel="noopener" class="highlight-link">
+                        910 Great Bridge Blvd, Suite 109<br>Chesapeake, VA 23320 ↗
+                    </a>
+                </div>
+            </div>
+
+            <div class="hours-card">
+                <h3>Business Hours</h3>
+                <ul class="hours-list">
+                    <li><span>Monday – Thursday</span> <strong>11:00 AM – 9:00 PM</strong></li>
+                    <li><span>Friday &amp; Saturday</span> <strong>11:00 AM – 10:00 PM</strong></li>
+                    <li><span>Sunday</span> <strong>1:00 PM – 8:00 PM</strong></li>
+                </ul>
+                <a href="https://maps.google.com/?q=910+Great+Bridge+Blvd,+Suite+109,+Chesapeake,+VA+23320" target="_blank" rel="noopener" class="btn btn-secondary btn-full">Get Directions on Google Maps</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clean Footer (No Webador Ads) -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Street Side Pizza &amp; Hoagies • 910 Great Bridge Blvd, Suite 109, Chesapeake, VA 23320</p>
+        </div>
+    </footer>
+
+    <!-- Lightweight Image Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="Expanded food photo">
+        <p id="lightbox-caption"></p>
+    </div>
+
+    <script>
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxCaption = document.getElementById('lightbox-caption');
+
+        document.querySelectorAll('.photo-card img').forEach(img => {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', () => {
+                lightboxImg.src = img.src;
+                lightboxCaption.textContent = img.alt;
+                lightbox.classList.add('active');
+            });
+        });
+
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+        }
+    </script>
+
+</body>
+</html>
